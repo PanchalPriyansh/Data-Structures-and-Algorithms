@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    for (int i = 10; i < 50; i++)
+    for (int i = 10; i <= 50; i++)
     {
         if (i % 3 == 0)
         {
