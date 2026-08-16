@@ -2,21 +2,28 @@
 #include <vector>
 using namespace std;
 
-bool matrixLinearSearch(vector<vector<int>> &matrix, int target)
+bool stairCaseSearch(vector<vector<int>> &matrix, int target)
 {
     int n, m;
     n = matrix.size();
     m = matrix[0].size();
 
-    for (int i = 0; i < n; i++)
+    int row = 0, column = m - 1;
+    while (row <= n - 1 && column >= 0)
     {
-        for (int j = 0; j < m; j++)
+        int cellValue = matrix[row][column];
+        if (cellValue == target)
         {
-            if (matrix[i][j] == target)
-            {
-                cout << "Target found at cell (" << i << "," << j << ")";
-                return true;
-            }
+            cout << "Target found at cell (" << row << "," << column << ")";
+            return true;
+        }
+        else if (cellValue < target)
+        {
+            row++;
+        }
+        else
+        {
+            column--;
         }
     }
     return false;
@@ -44,7 +51,7 @@ int main()
     cout << "Enter target: ";
     cin >> target;
 
-    int result = matrixLinearSearch(matrix, target);
+    int result = stairCaseSearch(matrix, target);
     if (!result)
     {
         cout << "Target not found.";
