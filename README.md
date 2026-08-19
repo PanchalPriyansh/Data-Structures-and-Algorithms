@@ -2,7 +2,7 @@
 
 Welcome to my **Data Structures and Algorithms** repository!
 
-This repository documents my journey of learning **DSA using C++**, where I practice core concepts, implement algorithms from scratch, and solve LeetCode problems.
+This repository documents my journey of learning **DSA using C++**, where I practice core concepts, implement algorithms from scratch, and (soon) solve LeetCode problems.
 
 ---
 
@@ -11,28 +11,17 @@ This repository documents my journey of learning **DSA using C++**, where I prac
 ```text
 Data Structures and Algorithms
 │
-├── DSA Practice
-│   ├── Arrays
-│   ├── Strings
-│   ├── Linked List
-│   ├── Stack
-│   ├── Queue
-│   ├── Trees
-│   ├── Graph
-│   ├── Dynamic Programming
-│   └── ...
+├── Practice
+│   ├── Basics                         # Fundamentals: math, digits, prime/Armstrong checks, etc.
+│   ├── Patterns                       # Star, pyramid, diamond, triangle printing patterns
+│   ├── Arrays                         # Searching, subarrays, Kadane's algorithm, reversal
+│   ├── Basic sorting algorithms       # Bubble, selection, insertion, count sort
+│   ├── 2D arrays and vectors          # Matrix search/traversal, diagonal sum, spiral, transpose
+│   ├── Vectors                        # Stock buy/sell, trapping rainwater
+│   ├── Character arrays and Strings   # Anagrams, palindromes, string reversal/case conversion
+│   └── Bit manipulation               # Bitwise tricks (odd/even check, etc.)
 │
-└── LeetCode
-    ├── Arrays
-    ├── Hashing
-    ├── Strings
-    ├── Linked List
-    ├── Stack
-    ├── Queue
-    ├── Trees
-    ├── Graph
-    ├── Dynamic Programming
-    └── ...
+└── Leetcode                           # Reserved for organized LeetCode solutions (coming soon)
 ```
 
 ---
@@ -55,33 +44,32 @@ Data Structures and Algorithms
 
 ## 📝 Folder Details
 
-### 📁 DSA Practice
+### 📁 Practice
 
-Contains implementations of data structures and algorithms written from scratch using standard C++.
+Contains implementations of data structures and algorithms written from scratch using standard C++, organized by topic:
 
-Examples include:
-
-- Array operations
-- Searching & Sorting
-- Linked List
-- Trees
-- Graphs
-- Dynamic Programming
-- And more...
+- **Basics** — simple math and number-based programs (factorial, prime/Armstrong/leap year checks, base conversions, etc.)
+- **Patterns** — pattern-printing exercises (pyramids, triangles, diamonds, rhombus, etc.)
+- **Arrays** — searching, subarray problems, and Kadane's algorithm
+- **Basic sorting algorithms** — bubble, selection, insertion, and count sort
+- **2D arrays and vectors** — matrix searching/traversal, spiral order, transpose, diagonal sum
+- **Vectors** — problems like buy/sell stocks and trapping rainwater
+- **Character arrays and Strings** — anagram/palindrome checks, string reversal and case conversion
+- **Bit manipulation** — bitwise operator tricks
 
 ---
 
-### 📁 LeetCode
+### 📁 Leetcode
 
-Contains my accepted LeetCode solutions organized by their **primary topic**.
-
-Each solution includes:
+Reserved for my accepted LeetCode solutions, organized by primary topic (Arrays, Hashing, Strings, Linked List, Stack, Queue, Trees, Graph, Dynamic Programming, etc.). Each solution will include:
 
 - Problem Number
 - Problem Name
 - Difficulty
 - Time Complexity
 - Space Complexity
+
+*(Currently empty — solutions will be added here as I solve them.)*
 
 ---
 
