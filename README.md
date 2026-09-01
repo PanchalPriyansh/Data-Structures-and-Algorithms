@@ -46,16 +46,113 @@ Data Structures and Algorithms
 
 ### 📁 Practice
 
-Contains implementations of data structures and algorithms written from scratch using standard C++, organized by topic:
+Contains implementations of data structures and algorithms written from scratch using standard C++, organized by topic. Each file below is a single, self-contained `.cpp` program.
 
-- **Basics** — simple math and number-based programs (factorial, prime/Armstrong/leap year checks, base conversions, etc.)
-- **Patterns** — pattern-printing exercises (pyramids, triangles, diamonds, rhombus, etc.)
-- **Arrays** — searching, subarray problems, and Kadane's algorithm
-- **Basic sorting algorithms** — bubble, selection, insertion, and count sort
-- **2D arrays and vectors** — matrix searching/traversal, spiral order, transpose, diagonal sum
-- **Vectors** — problems like buy/sell stocks and trapping rainwater
-- **Character arrays and Strings** — anagram/palindrome checks, string reversal and case conversion
-- **Bit manipulation** — bitwise operator tricks
+<details>
+<summary><b>Basics</b> — foundational math & number programs (24 files)</summary>
+
+- `areaOfCircle.cpp`, `areaOfRectangle.cpp`, `areaOfSquare.cpp` — geometry area calculations
+- `averageOf3Numbers.cpp` — average of three numbers
+- `binaryToDecimal.cpp`, `decimalToBinary.cpp` — base conversions
+- `calculateFactorial.cpp` — factorial of a number
+- `calculateSimpleInterest.cpp` — simple interest calculation
+- `calculateSumOfDigits.cpp` — digit sum of a number
+- `calculateTotalCost.cpp` — total cost computation
+- `checkArmstrongNumber.cpp` — Armstrong number check
+- `checkLeapYear.cpp` — leap year check
+- `checkPrimeNumber.cpp` — primality check
+- `evenOrOdd.cpp` — even/odd check
+- `largestOf3Numbers.cpp`, `maxOf2Numbers.cpp` — max/largest of numbers
+- `multiplesOf3From10to50.cpp` — print multiples in a range
+- `positiveNegativeOrZero.cpp` — sign check
+- `printAllPrimeNumbersFrom2toN.cpp` — prime sieve/listing
+- `printFirstNNaturalNumbers.cpp` — natural number listing
+- `printNFibonacciNumbers.cpp` — Fibonacci sequence generation
+- `reverseNumber.cpp` — reverse digits of a number
+- `sumOf2Number.cpp`, `sumOfFirstNNaturalNumbers.cpp` — summation exercises
+- `tempCodeRunnerFile.cpp` — scratch/temp file from Code Runner
+
+</details>
+
+<details>
+<summary><b>Patterns</b> — pattern-printing exercises (12 files)</summary>
+
+- `starPattern.cpp` — basic star pyramid
+- `halfPyramidPattern.cpp` — half pyramid of stars/numbers
+- `invertedStarPattern.cpp` — inverted star pyramid
+- `invertedAndRotatedHalfPyramidPattern.cpp` — inverted + rotated half pyramid
+- `rhombusPattern.cpp` — rhombus shape
+- `diamondPattern.cpp` — diamond shape
+- `hollowRectanglePattern.cpp` — hollow rectangle
+- `butterFlyPattern.cpp` — butterfly shape
+- `characterPyramidPattern.cpp` — pyramid using characters
+- `palindromePattern.cpp` — palindromic number/character pattern
+- `floydTriangle.cpp` — Floyd's triangle
+- `0_1TrianlePattern.cpp` — 0/1 alternating triangle
+
+</details>
+
+<details>
+<summary><b>Arrays</b> — searching, subarrays & classic array problems (9 files)</summary>
+
+- `linearSearch.cpp` — linear search
+- `binarySearch.cpp` — binary search
+- `findMaxAndMinValuesInArray.cpp` — min/max in a single pass
+- `printAllSubArrays.cpp` — enumerate all subarrays
+- `maxSubArraySum.cpp`, `maxSubArraySumInQuadraticTime.cpp` — max subarray sum (linear vs. quadratic approach)
+- `kadanesAlgorithm.cpp` — Kadane's algorithm for max subarray sum
+- `reverseArrayWithExtraSpace.cpp`, `reverseArrayWithoutExtraSpace.cpp` — array reversal (extra space vs. in-place)
+
+</details>
+
+<details>
+<summary><b>Basic sorting algorithms</b> — classic O(n²) & counting sorts (5 files)</summary>
+
+- `bubbleSort.cpp`, `optimizedBubbleSort.cpp` — bubble sort and its early-exit optimization
+- `selectionSort.cpp` — selection sort
+- `insertionSort.cpp` — insertion sort
+- `countSort.cpp` — counting sort
+
+</details>
+
+<details>
+<summary><b>2D arrays and vectors</b> — matrix traversal & search (10 files)</summary>
+
+- `transposeOfMatrix.cpp` — matrix transpose
+- `diagonalSum.cpp`, `diagonalSumOptimized.cpp` — sum of matrix diagonals (brute force vs. optimized)
+- `spiralMatrix.cpp` — spiral order traversal
+- `pairSum.cpp` — pair-sum search across a matrix
+- `searchInUnsortedMatrix.cpp` — linear search in an unsorted matrix
+- `searchInSortedMatrix.cpp`, `searchInSortedMatrixFromLeftBottom.cpp` — search in a fully sorted matrix (staircase search)
+- `searchInRowWiseSortedMatrix.cpp` — search where each row is sorted
+- `searchInColumnWiseSortedMatrix.cpp` — search where each column is sorted
+
+</details>
+
+<details>
+<summary><b>Vectors</b> — classic vector-based interview problems (2 files)</summary>
+
+- `buyAndSellStocks.cpp` — best time to buy and sell stock
+- `trappingRainwater.cpp` — trapping rainwater problem
+
+</details>
+
+<details>
+<summary><b>Character arrays and Strings</b> — string manipulation problems (4 files)</summary>
+
+- `convertIntoUppercase.cpp` — string case conversion
+- `reverseWord.cpp` — reverse a word/string
+- `validAnagram.cpp` — anagram check
+- `validPalindrome.cpp` — palindrome check
+
+</details>
+
+<details>
+<summary><b>Bit manipulation</b> — bitwise operator tricks (1 file)</summary>
+
+- `oddOrEven.cpp` — odd/even check using bitwise AND
+
+</details>
 
 ---
 
