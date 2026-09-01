@@ -37,9 +37,14 @@ public:
 int main()
 {
     Student s1("Priyansh", 8.5);
+    Student s2("Samarth", 8.7);
 
-    cout << "Student name: " << s1.getName() << endl;
-    cout << "Student CGPA: " << s1.getCgpa() << endl;
+    cout << "Student1 name: " << s1.getName() << endl;
+    cout << "Student1 CGPA: " << s1.getCgpa() << endl;
     cout << "Percentage score: " << s1.getPercentage() << "%" << endl;
+
+    cout << "Student2 name: " << s2.getName() << endl;
+    cout << "Student2 CGPA: " << s2.getCgpa() << endl;
+    cout << "Percentage score: " << s2.getPercentage() << "%" << endl;
     return 0;
 }
